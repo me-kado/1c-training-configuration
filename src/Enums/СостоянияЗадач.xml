@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="2d07d92e-79f6-445e-bef5-c96b2c71c784">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияЗадач" category="Ref">
+				<xr:TypeId>b403042e-1650-479f-95fd-1b47e2db0ebf</xr:TypeId>
+				<xr:ValueId>0d158239-4b7c-4329-900b-a4c1c482a452</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияЗадач" category="Manager">
+				<xr:TypeId>eca07989-08d9-42ba-a100-ae686fc9e993</xr:TypeId>
+				<xr:ValueId>aa7f978b-d94d-4dfe-8068-2f93a54963aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияЗадач" category="List">
+				<xr:TypeId>7014fe1d-6f40-4d08-9260-29071c48c0b3</xr:TypeId>
+				<xr:ValueId>0a50ca11-daf6-4d0e-a4cb-c2e0281cc9d4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияЗадач</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояния задач</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="7fd4b144-0819-4fcf-b8d5-a37a53e80231">
+				<Properties>
+					<Name>Новая</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новая</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="67d1c9c9-3738-4787-88e8-0d8c85699d90">
+				<Properties>
+					<Name>ВРаботе</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В работе</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9e3d79c2-21be-4747-878b-663f5a1d4f87">
+				<Properties>
+					<Name>Выполнена</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнена</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cceaecf5-7210-49b1-95ad-4d5f5d90eea7">
+				<Properties>
+					<Name>Отменена</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отменена</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

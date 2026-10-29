@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="2e95246f-2ce6-47e8-938a-4c2724f3b967">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.УровниВажностиЗадач" category="Ref">
+				<xr:TypeId>da1850b7-c4c9-406d-8951-e5ff149bb1cd</xr:TypeId>
+				<xr:ValueId>61d60935-4f80-4e12-ae8f-f50dd0c22a3c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.УровниВажностиЗадач" category="Manager">
+				<xr:TypeId>77f54e06-1c36-41e5-9d9b-a1cd2434ce18</xr:TypeId>
+				<xr:ValueId>ba276eea-8af5-4d49-a779-91a3650ebbef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.УровниВажностиЗадач" category="List">
+				<xr:TypeId>d188f599-be09-4d26-bff5-ee928fbf1798</xr:TypeId>
+				<xr:ValueId>3aa872a1-7e42-42af-995e-f839cb0339c3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УровниВажностиЗадач</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уровни важности задач</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="435a6dd4-daa0-4a27-8516-af28f528e824">
+				<Properties>
+					<Name>Высокий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Высокий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a62b428f-ff2c-4a94-a1b9-fcca5a59001b">
+				<Properties>
+					<Name>Обычный</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обычный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5619d0f7-c7d2-4d64-9a33-d8622fc299d1">
+				<Properties>
+					<Name>Низкий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Низкий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

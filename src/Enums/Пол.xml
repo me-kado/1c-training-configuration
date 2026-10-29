@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="c2173cc0-11ea-4e75-82a9-7e60e4d203cc">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Пол" category="Ref">
+				<xr:TypeId>e4da18ff-5a3d-4694-a8b4-bbee4dfe96d2</xr:TypeId>
+				<xr:ValueId>3cf54c3b-85a2-4656-9aba-ff9395f6371f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Пол" category="Manager">
+				<xr:TypeId>ef8285ba-da0b-4789-a8d0-d1716288e90b</xr:TypeId>
+				<xr:ValueId>17418cf2-e3d9-4639-a62c-42d3d8101fd7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Пол" category="List">
+				<xr:TypeId>4209b840-927c-4501-9b90-b2d406ace37e</xr:TypeId>
+				<xr:ValueId>c9273b67-658d-482d-bd87-e3baa630a24c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Пол</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пол</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="2086b0b2-fef5-441a-ac5e-ad0ff74c488c">
+				<Properties>
+					<Name>Мужской</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мужской</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a9872fb4-3f18-4143-8124-234c67a29b60">
+				<Properties>
+					<Name>Женский</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Женский</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
